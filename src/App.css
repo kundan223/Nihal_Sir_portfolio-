@@ -13,6 +13,19 @@
   }
 }
 
+/* Example for Education component */
+.education-container {
+  display: flex;
+  flex-direction: column; /* Stack on mobile */
+}
+
+@media (min-width: 768px) {
+  .education-container {
+    flex-direction: row; /* Side by side on larger screens */
+  }
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
