@@ -3,6 +3,7 @@ import DTU from '../assets/Dtu.png';
 import Narayna from '../assets/Naraina Group of Institutions.jpeg';
 import Sys from '../assets/SYSACS_TECHNOLOFY.jpeg';
 import Hind from '../assets/Hindustan Aeronautics Limited.jpeg';
+import SBA from "../assets/buld2.png";
 
 const WorkExperience = () => {
   return (
@@ -62,7 +63,7 @@ Research Scholar, Delhi Technological University (Formerly DCE) · Full-time,Del
       <div className="bg-[#121214]  rounded-r-lg rounded-l-full flex items-center w-full max-w-3xl"> {/* Darker background and rounded corners */}
         {/* Image container */}
         <div className="flex-shrink-0 rounded-l-full overflow-hidden">
-          <img src={Sys} alt="College Logo" className="w-24 h-24 rounded-full" /> {/* Circular image, adjusted size */}
+          <img src={SBA} alt="College Logo" className="w-24 h-24 rounded-full" /> {/* Circular image, adjusted size */}
         </div>
         {/* Text Content */}
         <div className="ml-4 flex flex-col justify-center">
