@@ -4,7 +4,7 @@ import gray from '../assets/shade.png';
 
 const Research = () => {
     return (
-        <div className="bg-black p-6">
+        <div className="bg-black p-6 px-16">
             <div className="flex">
 
                 <div className="w-3/4 pr-6">
