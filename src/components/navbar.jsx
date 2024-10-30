@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Transition } from '@headlessui/react';
 
 const Navbar = () => {
@@ -10,45 +11,42 @@ const Navbar = () => {
 
   return (
     <nav className="bg-black text-white py-4">
-      <div className="container mx-auto flex justify-between md:justify-center  items-center px-4 md:px-0">
-        {/* Logo or Brand Name (optional, can be added here if needed) */}
-
-        {/* Links for large screens */}
+      <div className="container mx-auto flex justify-between md:justify-center items-center px-4 md:px-0">
         <ul className="hidden md:flex justify-center space-x-8">
           <li>
-            <a href="#research" className="hover:text-orange-500">
+            <Link to="/research" className="hover:text-orange-500">
               Research
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#projects" className="hover:text-orange-500">
+            <Link to="/key-projects" className="hover:text-orange-500">
               Key Projects
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#work-experience" className="hover:text-orange-500">
+            <Link to="/work-experience" className="hover:text-orange-500">
               Work Experience
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#cv" className="hover:text-orange-500">
+            <Link to="/cv" className="hover:text-orange-500">
               CV
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#personal" className="hover:text-orange-500">
+            <Link to="/personal" className="hover:text-orange-500">
               Personal
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#teaching" className="hover:text-orange-500">
+            <Link to="/teaching" className="hover:text-orange-500">
               Teaching
-            </a>
+            </Link>
           </li>
         </ul>
 
         {/* Hamburger Icon for mobile screens */}
-        <div className="md:hidden ">
+        <div className="md:hidden">
           <button
             onClick={toggleMenu}
             className="text-white focus:outline-none"
@@ -85,34 +83,34 @@ const Navbar = () => {
       >
         <ul className="md:hidden bg-black text-white space-y-4 mt-4 px-4">
           <li>
-            <a href="#research" className="block hover:text-orange-500">
+            <Link to="/research" className="block hover:text-orange-500">
               Research
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#projects" className="block hover:text-orange-500">
+            <Link to="/key-projects" className="block hover:text-orange-500">
               Key Projects
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#work-experience" className="block hover:text-orange-500">
+            <Link to="/work-experience" className="block hover:text-orange-500">
               Work Experience
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#cv" className="block hover:text-orange-500">
+            <Link to="/cv" className="block hover:text-orange-500">
               CV
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#personal" className="block hover:text-orange-500">
+            <Link to="/personal" className="block hover:text-orange-500">
               Personal
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#teaching" className="block hover:text-orange-500">
+            <Link to="/teaching" className="block hover:text-orange-500">
               Teaching
-            </a>
+            </Link>
           </li>
         </ul>
       </Transition>

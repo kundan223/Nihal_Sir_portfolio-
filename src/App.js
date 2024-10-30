@@ -1,20 +1,27 @@
 // src/App.js
 import React from 'react';
-import Navbar from './components/navbar';
-import HeroSection from './components/HeroSection';
-import Education from './components/Education';
-import RecentWork from './components/RecentWork';
-import Footer from './components/footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Hero from './components/Landing_page';
+import WorkExperience from './components/WorkExperience';
+import Teaching from './components/Teaching';
+import Research from './components/Research';
+import Personal from './components/Personal';
+import KeyProjects from './components/KeyProjects';
+import Navbar from './components/navbar'; // Import the Navbar component
 
 function App() {
   return (
-    <div className="App bg-black px-4 sm:px-8 lg:px-14">  {/* Adjust padding based on screen size */}
-      <Navbar />
-      <HeroSection />
-      <Education />
-      <RecentWork />
-      <Footer />
-    </div>
+    <Router>
+      <Navbar/>
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/work-experience" element={<WorkExperience />} />
+        <Route path="/teaching" element={<Teaching />} />
+        <Route path="/research" element={<Research />} />
+        <Route path="/personal" element={<Personal />} />
+        <Route path="/key-projects" element={<KeyProjects />} />
+      </Routes>
+    </Router>
   );
 }
 
