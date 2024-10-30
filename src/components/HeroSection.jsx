@@ -24,15 +24,11 @@ const HeroSection = () => {
               <div className="w-8 h-8 bg-white rounded-full p-1 flex justify-center items-center">
                 <img src={linkden} className="w-6 h-6" alt="LinkedIn" />
               </div>
-              <div className="w-8 h-8 bg-white rounded-full p-1 flex justify-center items-center">
-                <img src={x} className="w-6 h-6" alt="Twitter" />
-              </div>
+             
               <div className="w-8 h-8 bg-white rounded-full p-1 flex justify-center items-center">
                 <img src={github} className="w-6 h-6" alt="GitHub" />
               </div>
-              <div className="w-8 h-8 bg-white rounded-full p-1 flex justify-center items-center">
-                <img src={facebook} className="w-6 h-6" alt="Facebook" />
-              </div>
+              
             </div>
           </div>
         </div>
@@ -45,7 +41,8 @@ const HeroSection = () => {
               <span className="text-green-500 font-bold">computer vision</span> at the MLR Lab.
             </p>
             <div className="flex items-center bg-orange-600 px-4 py-2  rounded-full w-fit mt-4">
-              <button className="text-white text-sm">View CV</button>
+            
+              <a  href="https://drive.google.com/file/d/15diOIYcwQHRDYYkjttnRMZAq4iofvqaP/view?usp=sharing" className="text-white text-sm"> View CV </a>
               <img src={eye} alt="Eye Icon" className="w-4 h-4 ml-2" />
             </div>
           </div>

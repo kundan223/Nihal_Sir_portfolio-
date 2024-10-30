@@ -1,21 +1,28 @@
 import React from "react";
 import papers from '../assets/p1.png';
+import gray from '../assets/shade.png';
 
 const Research = () => {
     return (
         <div className="bg-black p-6">
             <div className="flex">
-                {/* Left side section - Takes 3/4th of the space */}
+
                 <div className="w-3/4 pr-6">
-                    <div className="flex justify-between items-center mb-4">
-                        {/* Title and Year header */}
+                    <div className="flex justify-between items-center ml-64  mb-4 mr-8">
+                  
                         <p className="text-orange-500 font-bold">TITLE</p>
                         <p className="text-orange-500 font-bold">YEAR</p>
                     </div>
-                    {/* Each paper entry */}
-                    <div className="flex items-center p-4 rounded-md border border-transparent hover:border-white transition duration-300 mb-4">
-                        <div className="w-1/5">
-                            <img src={papers} className="h-20 w-20 object-cover" alt="Paper" />
+              
+                    <div className="flex items-center  rounded-md border border-transparent hover:border-white transition duration-300 mb-4">
+                        <div className="w-1/5 "> 
+                        <img 
+    src={papers} 
+    className="h-36 w-36 object-cover rounded-tl-lg rounded-bl-lg" 
+    alt="Paper" 
+/>
+
+                   
                         </div>
                         <div className="flex-grow px-4">
                             <p className="text-white font-bold text-lg">

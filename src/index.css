@@ -26,3 +26,174 @@ code {
   scrollbar-width: none;     /* Hides scrollbar in Firefox */
 }
 
+/* Fade-in effect */
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+/* Slide-in left */
+.animate-slide-in-left {
+  animation: slideInLeft 0.8s ease-in-out forwards;
+}
+
+@keyframes slideInLeft {
+  from {
+      transform: translateX(-50%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+/* Slide-in right */
+.animate-slide-in-right {
+  animation: slideInRight 0.8s ease-in-out forwards;
+}
+
+@keyframes slideInRight {
+  from {
+      transform: translateX(50%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+/* Fade-in animation for the entire component */
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(10%);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Slow fade-in effect for a staggered look */
+.animate-fade-in-slow {
+  animation: fadeInSlow 1.5s ease-in-out;
+}
+
+@keyframes fadeInSlow {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+/* Fade-in animation for the entire component */
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(10%);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Slow fade-in effect for a staggered look */
+.animate-fade-in-slow {
+  animation: fadeInSlow 1.5s ease-in-out;
+}
+
+@keyframes fadeInSlow {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+/* Fade-in animation for the entire component */
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(10%);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Slow fade-in effect for a staggered look */
+.animate-fade-in-slow {
+  animation: fadeInSlow 1.5s ease-in-out;
+}
+
+@keyframes fadeInSlow {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+/* Fade-in animation for the entire component */
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(10%);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Slow fade-in effect for a staggered look */
+.animate-fade-in-slow {
+  animation: fadeInSlow 1.5s ease-in-out;
+}
+
+@keyframes fadeInSlow {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+

@@ -14,8 +14,7 @@ const Hero = () => {
       <HeroSection />
       <Education />
       <RecentWork />
-      <Footer />
-      <WorkExperience/>
+  
     </div>
     );
 };

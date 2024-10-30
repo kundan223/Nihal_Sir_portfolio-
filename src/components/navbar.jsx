@@ -13,9 +13,9 @@ const Navbar = () => {
     <nav className="bg-black text-white py-4">
       <div className="container mx-auto flex justify-between md:justify-center items-center px-4 md:px-0">
         <ul className="hidden md:flex justify-center space-x-8">
-          <li>
-            <Link to="/research" className="hover:text-orange-500">
-              Research
+        <li>
+            <Link to="/" className="hover:text-orange-500">
+              Personal
             </Link>
           </li>
           <li>
@@ -28,19 +28,18 @@ const Navbar = () => {
               Work Experience
             </Link>
           </li>
+          <a href="https://drive.google.com/file/d/15diOIYcwQHRDYYkjttnRMZAq4iofvqaP/view?usp=sharing" className="block hover:text-orange-500">
+            CV
+            </a>
+          
           <li>
-            <Link to="/cv" className="hover:text-orange-500">
-              CV
+            <Link to="/research" className="hover:text-orange-500">
+              Research
             </Link>
           </li>
           <li>
-            <Link to="/personal" className="hover:text-orange-500">
-              Personal
-            </Link>
-          </li>
-          <li>
-            <Link to="/teaching" className="hover:text-orange-500">
-              Teaching
+            <Link to="/blogs" className="hover:text-orange-500">
+              Blogs
             </Link>
           </li>
         </ul>
@@ -107,11 +106,10 @@ const Navbar = () => {
               Personal
             </Link>
           </li>
-          <li>
-            <Link to="/teaching" className="block hover:text-orange-500">
-              Teaching
-            </Link>
-          </li>
+          <a  href="https://drive.google.com/file/d/15diOIYcwQHRDYYkjttnRMZAq4iofvqaP/view?usp=sharing" className="block hover:text-orange-500">
+            Blogs
+
+          </a>
         </ul>
       </Transition>
     </nav>
